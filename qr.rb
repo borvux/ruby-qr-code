@@ -5,3 +5,15 @@ require "rqrcode"
 # SMSTO:9876543210:Hi Alice! It's
 # png = qrcode.as_png({ :size => 500 })
 # IO.binwrite("sometext.png", png.to_s)
+
+puts "What kind of QR code would you like to generate?"
+puts
+puts "1. Open a URL"
+puts "2. Join a wifi network"
+puts "3. Send a text message"
+puts
+puts "Press 4 to exit"
+puts
+
+user_input = gets.chomp
+puts
