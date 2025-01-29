@@ -17,3 +17,18 @@ puts
 
 user_input = gets.chomp
 puts
+
+case user_input
+when "1"
+    puts "What is the URL you would like to encode?"
+    puts
+when "2"
+    puts "What is the name of the wifi network?"
+    puts 
+when "3"
+    puts "What is the phone number you want the code to send a text message to?"
+    puts
+else
+    puts "Goodbye!"
+    exit
+end
